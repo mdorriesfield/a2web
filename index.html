@@ -5,7 +5,21 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!--w3schools, responsive-->
         <title>Page Title</title>
     </head>
+<script>
+$(document).ready(function(){
+  
+    $("button").click(function(){
 
+      if($("button").text() == "☰"){
+        $("button").text("🞬");
+      }else{
+        $("button").text("☰");
+      }
+      
+      $("li").toggle("slow");
+    });  
+});
+</script>
 <body>
     <nav>
         <ul>
