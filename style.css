@@ -1,0 +1,50 @@
+body {
+    font-family: "Lato", sans-serif
+}
+
+h1 {
+    font-family: "Lato", sans-serif
+}
+
+h2 {
+    font-family: "Lato", sans-serif
+}
+
+h3 {
+    font-family: "Lato", sans-serif
+}
+
+h4 {
+    font-family: "Lato", sans-serif
+}
+
+h5 {
+    font-family: "Lato", sans-serif
+}
+ 
+h6 {
+    font-family: "Lato", sans-serif
+}
+
+.navbar {
+    padding: 8px 16px;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0;
+}
+
+.buttonhover {
+    color: #000!important;
+    background-color: #fff!important;
+}
+
+.homebutton {
+    padding: 12px 24px!important;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
