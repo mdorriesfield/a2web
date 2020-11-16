@@ -103,8 +103,9 @@ h6 {
     cursor:pointer;
     white-space:nowrap;
 }
+/* End of Individual buttons on nav bar */
 
-/* Hide based on screen size */
+/* Hide based on screen size - from w3schools */
 
 @media (min-width:993px) {
     .w3-hide-large{
@@ -122,4 +123,41 @@ h6 {
     .w3-hide-small {
         display:none!important;
     }
+}
+
+/* End of hide based on screen size */
+
+/* Header - from w3schools stylesheet */
+
+.w3-container {
+    padding:0.01em 16px;
+}
+
+.w3-center {
+    text-align:center!important;
+}
+
+.w3-margin {
+    margin:16px!important;
+}
+
+.w3-jumbo {
+    font-size:64px!important;
+}
+
+.w3-xlarge {
+    font-size:24px!important;
+}
+
+.w3-black {
+    color:#fff!important;
+    background-color:#000!important;
+}
+
+.w3-padding-large {
+    padding:12px 24px!important;
+}
+
+.w3-margin-top {
+    margin-top:16px!important;
 }
