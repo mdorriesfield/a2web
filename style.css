@@ -26,6 +26,7 @@ h6 {
     font-family: "Lato", sans-serif
 }
 
+/* Navigation Bar - from w3 schools template CSS stylesheet */
 .w3-top {
     position:fixed;
     width:100%;
@@ -44,6 +45,23 @@ h6 {
     border:none;
     display:block;
     outline:0;
+}
+
+.w3-red {
+    color:#fff!important;
+    background-color:#f44336!important;
+}
+
+.w3-card {
+    box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.w3-left-align {
+    text-align:left!important;
+}
+
+.w3-large {
+    font-size:18px!important;
 }
 
 .navbar {
