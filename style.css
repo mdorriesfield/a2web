@@ -33,6 +33,19 @@ h6 {
     top:0;
 }
 
+.w3-bar {
+    width:100%;
+    overflow:hidden;
+    display:inline-block;
+    width:auto;
+    padding:8px 16px;
+    float:left;
+    width:auto;
+    border:none;
+    display:block;
+    outline:0;
+}
+
 .navbar {
     padding: 8px 16px;
     float: left;
