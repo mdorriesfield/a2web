@@ -64,6 +64,15 @@ h6 {
     font-size:18px!important;
 }
 
+.w3-right {
+    float:right!important;
+}
+
+.w3-padding-large {
+    padding:12px 24px!important;
+}
+
+/* other CSS */
 .navbar {
     padding: 8px 16px;
     float: left;
