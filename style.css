@@ -110,3 +110,7 @@ h6 {
     cursor:pointer;
     white-space:nowrap;
 }
+
+.w3-hide-small {
+    display:none!important;
+}
