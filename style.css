@@ -161,3 +161,45 @@ h6 {
 .w3-margin-top {
     margin-top:16px!important;
 }
+
+/* first grid - from w3schools stylesheet */
+
+.w3-row-padding {
+    padding:0 8px;
+}
+
+.w3-padding-64 {
+    padding-top:64px!important;
+    padding-bottom:64px!important;
+}
+
+.w3-container {
+    padding:0.01em 16px;
+}
+
+.w3-content {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+@media (min-width:601px) {
+    .w3-twothird {
+        width:66.66666%;  
+    }
+}
+
+.w3-padding-32 {
+    padding-top:32px!important;
+    padding-bottom:32px!important;
+}
+
+.w3-text-grey {
+    color:#757575!important;
+}
+
+@media (min-width:601px) {
+    .w3-third{
+        width:33.33333%
+    }
+}
+
