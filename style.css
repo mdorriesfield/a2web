@@ -21,7 +21,7 @@ ul {
     text-decoration: none;
   }
 
-.fix-top {
+.fix-top-navbar {
     position:fixed;  /* this keeps the nav bar fixed to the top when scrolling */
     width:100%;
     z-index:1;
