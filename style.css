@@ -23,6 +23,16 @@ li {
 
 .navbutton {
     display: block;
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbutton-small {
+    display: block;
+    float: none;
     color: black;
     text-align: center;
     padding: 14px 16px;
@@ -40,11 +50,18 @@ li {
     top:0;
 }
 
-@media (max-width:600px) {
-    ul.display-small {
-        float: none;
+@media (min-width:601px) {
+    .display-large {
+        display:none!important;
     }
 }
+
+@media (max-width:600px) {
+    .display-small {
+        display:none!important;
+    }
+}
+
 
 /* End of source */
 
