@@ -40,8 +40,8 @@ li {
     top:0;
 }
 
-@media screen and (max-width:600px) {
-    ul.fix-top-navbar {
+@media (max-width:600px) {
+    ul.display-small {
         float: none;
     }
 }
