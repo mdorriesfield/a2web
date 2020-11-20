@@ -61,10 +61,9 @@ body, h1, h2, h3, h4, h5, h6 {
 
 .w3-bar-item {
     padding:8px 16px;
-    float:left;
     width:auto;
     border:none;
-    display:block;
+    display:inline-block;
     outline:0;
     width:100%;
 }
