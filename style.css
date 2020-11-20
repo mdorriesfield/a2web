@@ -1,61 +1,14 @@
-/* Owner: Kate */
 body, h1, h2, h3, h4, h5, h6 {
     font-family: "Lato", sans-serif
 }
 
-body {
-    margin: 0;   /* sets the margin of the body to 0 for entire page */
-}
-
-/* Main Navigation Bar structure - combo of code from w3 schools horizontal navigation bar and template CSS stylesheet */
-
-ul.topnav {
-    position: fixed;
-    width:100%;
-    z-index:1;
-    top:0;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #fff;
-  }
-
-ul.topnav li {
-    float: left;
-}
-
-ul.topnav li a {
-    display: block;
-    float: left;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-ul.topnav li.right {
-    float: right;
-}
-
-.navbutton:hover {
-    background-color: #b8dbde;
-}
-
-.fix-top-navbar {
+/* Main Navigation Bar structure - from w3 schools template CSS stylesheet */
+.w3-top {
     position:fixed;  /* this keeps the nav bar fixed to the top when scrolling */
     width:100%;
     z-index:1;
     top:0;
 }
-
-@media screen and (max-width: 600px) {
-    ul.topnav li.right, 
-    ul.topnav li {float: none;}
-  }
-
-
-/* End of source */
 
 .w3-bar {
     width:100%;
@@ -63,8 +16,10 @@ ul.topnav li.right {
     display:inline-block;
     width:auto;
     padding:8px 16px;
+    float:left;
     width:auto;
     border:none;
+    display:block;
     outline:0;
 }
 
@@ -103,16 +58,17 @@ ul.topnav li.right {
 
 .w3-bar-item {
     padding:8px 16px;
+    float:left;
     width:auto;
     border:none;
-    display:inline-block;
+    display:block;
     outline:0;
     width:100%;
 }
 
 .w3-button {
     border:none;
-    display:inline-block;
+    display:block;
     padding:8px 16px;
     vertical-align:middle;
     overflow:hidden;
@@ -180,46 +136,5 @@ ul.topnav li.right {
 
 .w3-margin-top {
     margin-top:16px!important;
-}
-
-/* first grid - from w3schools stylesheet */
-
-.w3-row-padding {
-    padding:0 8px;
-}
-
-.w3-padding-64 {
-    padding-top:64px!important;
-    padding-bottom:64px!important;
-}
-
-.w3-container {
-    padding:0.01em 16px;
-}
-
-.w3-content {
-    margin-left:auto;
-    margin-right:auto;
-}
-
-@media (min-width:601px) {
-    .w3-twothird {
-        width:66.66666%;  
-    }
-}
-
-.w3-padding-32 {
-    padding-top:32px!important;
-    padding-bottom:32px!important;
-}
-
-.w3-text-grey {
-    color:#757575!important;
-}
-
-@media (min-width:601px) {
-    .w3-third{
-        width:33.33333%
-    }
 }
 
