@@ -34,6 +34,9 @@ ul.topnav li a {
     text-decoration: none;
 }
 
+ul.topnav li.right {
+    float: right;
+}
 
 .navbutton:hover {
     background-color: #b8dbde;
