@@ -1,33 +1,13 @@
 /* Owner: Kate */
-body {
-    font-family: "Lato", sans-serif
-}
-
-h1 {
-    font-family: "Lato", sans-serif
-}
-
-h2 {
-    font-family: "Lato", sans-serif
-}
-
-h3 {
-    font-family: "Lato", sans-serif
-}
-
-h4 {
-    font-family: "Lato", sans-serif
-}
-
-h5 {
-    font-family: "Lato", sans-serif
-}
- 
-h6 {
+body, h1, h2, h3, h4, h5, h6 {
     font-family: "Lato", sans-serif
 }
 
 /* Main Navigation Bar structure - from w3 schools template CSS stylesheet */
+
+
+
+
 .w3-top {
     position:fixed;  /* this keeps the nav bar fixed to the top when scrolling */
     width:100%;
