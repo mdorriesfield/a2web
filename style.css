@@ -7,14 +7,9 @@ body {
     margin: 0;   /* sets the margin of the body to 0 for entire page */
 }
 
-.cloud9photo {
-    background-image: url('images\Cloud9Consulting.png')
-}
-
-
 /* Main Navigation Bar structure - combo of code from w3 schools horizontal navigation bar and template CSS stylesheet */
 
-ul {
+ul.topnav {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -22,11 +17,11 @@ ul {
     background-color: #fff;
   }
 
-li {
+ul.topnav li {
     float: left;
 }
 
-.navbutton {
+ul.topnav li a {
     display: block;
     float: left;
     color: black;
@@ -35,14 +30,6 @@ li {
     text-decoration: none;
 }
 
-.navbutton-small {
-    display: block;
-    float: none;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
 
 .navbutton:hover {
     background-color: #b8dbde;
