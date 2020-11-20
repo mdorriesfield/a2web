@@ -7,6 +7,11 @@ body {
     margin: 0;   /* sets the margin of the body to 0 for entire page */
 }
 
+.cloud9photo {
+    background-image: url('images\Cloud9Consulting.png')
+}
+
+
 /* Main Navigation Bar structure - combo of code from w3 schools horizontal navigation bar and template CSS stylesheet */
 
 ul {
