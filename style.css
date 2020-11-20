@@ -8,7 +8,7 @@ body, h1, h2, h3, h4, h5, h6 {
 
 
 
-.w3-top {
+.fix-top {
     position:fixed;  /* this keeps the nav bar fixed to the top when scrolling */
     width:100%;
     z-index:1;
