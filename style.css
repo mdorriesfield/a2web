@@ -24,7 +24,6 @@ body, h1, h2, h3, h4, h5, h6 {
     float:left;
     width:auto;
     border:none;
-    display:block;
     outline:0;
 }
 
@@ -66,7 +65,7 @@ body, h1, h2, h3, h4, h5, h6 {
     float:left;
     width:auto;
     border:none;
-    display:inline-block;
+    display:block;
     outline:0;
     width:100%;
 }
