@@ -23,7 +23,11 @@ li {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
+}
+
+.navbar:hover {
+    background-color: #757575;
+}
 
 .fix-top-navbar {
     position:fixed;  /* this keeps the nav bar fixed to the top when scrolling */
