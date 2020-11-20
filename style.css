@@ -58,16 +58,6 @@ body, h1, h2, h3, h4, h5, h6 {
 
 /* Individual Buttons on Nav Bar - from w3schools stylesheet */
 
-.w3-bar-item {
-    padding:8px 16px;
-    float:left;
-    width:auto;
-    border:none;
-    display:block;
-    outline:0;
-    width:100%;
-}
-
 .w3-button {
     border:none;
     display:block;
@@ -81,6 +71,18 @@ body, h1, h2, h3, h4, h5, h6 {
     cursor:pointer;
     white-space:nowrap;
 }
+
+.w3-bar-item {
+    padding:8px 16px;
+    float:left;
+    width:auto;
+    border:none;
+    display:block;
+    outline:0;
+    width:100%;
+}
+
+
 /* End of Individual buttons on nav bar */
 
 /* Hide based on screen size - from w3schools */
