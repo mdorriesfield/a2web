@@ -8,31 +8,6 @@ body, h1, h2, h3, h4, h5, h6 {
     font-family: "Lato", sans-serif
 }
 
-.w3-button {
-    border:none;
-    display:block;
-    padding:8px 16px;
-    vertical-align:middle;
-    overflow:hidden;
-    text-decoration:none;
-    color:inherit;
-    background-color:inherit;
-    text-align:center;
-    cursor:pointer;
-    white-space:nowrap;
-}
-
-.w3-bar-item {
-    padding:8px 16px;
-    float:left;
-    width:auto;
-    border:none;
-    display:block;
-    outline:0;
-    width:100%;
-}
-
-
 /* Main Navigation Bar structure - from w3 schools template CSS stylesheet */
 .w3-top {
     position:fixed;  /* this keeps the nav bar fixed to the top when scrolling */
@@ -42,6 +17,7 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 .w3-bar {
+
     width:100%;
     overflow:hidden;
     display:inline-block;
@@ -87,7 +63,29 @@ body, h1, h2, h3, h4, h5, h6 {
 
 /* Individual Buttons on Nav Bar - from w3schools stylesheet */
 
+.w3-button {
+    border:none;
+    display:block;
+    padding:8px 16px;
+    vertical-align:middle;
+    overflow:hidden;
+    text-decoration:none;
+    color:inherit;
+    background-color:inherit;
+    text-align:center;
+    cursor:pointer;
+    white-space:nowrap;
+}
 
+.w3-bar-item {
+    padding:8px 16px;
+    float:left;
+    width:auto;
+    border:none;
+    display:block;
+    outline:0;
+    width:100%;
+}
 
 
 /* End of Individual buttons on nav bar */
