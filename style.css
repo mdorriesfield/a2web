@@ -149,5 +149,13 @@ body, h1, h2, h3, h4, h5, h6 {
 
 .w3-content {
     margin: auto;
-    width: 66%;
+    width: 50%;
+}
+
+.w3-display-middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
 }
