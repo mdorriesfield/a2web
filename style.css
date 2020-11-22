@@ -9,14 +9,6 @@ body, h1, h2, h3, h4, h5, h6 {
     font-family: "Lato", sans-serif
 }
 
-.w3-display-middle{
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform:translate(-50%,-50%);
-    -ms-transform:translate(-50%,-50%);
-}
-
 /* Main Navigation Bar structure - from w3 schools template CSS stylesheet */
 .w3-top {
     position:fixed;  /* this keeps the nav bar fixed to the top when scrolling */
@@ -172,5 +164,6 @@ body, h1, h2, h3, h4, h5, h6 {
 .w3-image {
     max-width: 100%;
     height: auto;
+    margin: 0;
 }
 
