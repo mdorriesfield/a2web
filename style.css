@@ -57,6 +57,11 @@ body, h1, h2, h3, h4, h5, h6 {
     color:#000!important;
     background-color:#fff!important;
 }
+
+.w3-jumbo{
+    font-size:64px!important;
+}
+
 /* End of Main Navigation Bar structure */
 
 /* Individual Buttons on Nav Bar - from w3schools stylesheet */
