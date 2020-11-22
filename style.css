@@ -91,14 +91,6 @@ h1 {
 .w3-show {
     display:block!important;
 }
-.dropbtn {
-    background-color: #fff;
-    color: #000;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-}
 
 /* End of Individual buttons on nav bar */
 
