@@ -174,3 +174,7 @@ h1 {
     height: auto;
 }
 
+.imgsize {
+    height:50%;
+    width:50%;
+}
