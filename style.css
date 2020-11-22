@@ -13,6 +13,10 @@ h1 {
     font-size:3vw;
 }
 
+.cloud9 {
+    font-size:3vw;
+}
+
 /* Main Navigation Bar structure - from w3 schools template CSS stylesheet */
 .w3-top {
     position:fixed;  /* this keeps the nav bar fixed to the top when scrolling */
