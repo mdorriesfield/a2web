@@ -5,12 +5,8 @@ body {
     margin:0;
 }
 
-body, h2, h3, h4, h5, h6 {
+body, h1, h2, h3, h4, h5, h6 {
     font-family: "Lato", sans-serif
-}
-
-h1 {
-    font-size:5vw;
 }
 
 /* Main Navigation Bar structure - from w3 schools template CSS stylesheet */
