@@ -6,15 +6,16 @@ body {
 }
 
 body, h2, h3, h4, h5, h6 {
-    font-family: "Lato", sans-serif
+    font-family: "Lato", sans-serif;
 }
 
 h1 {
     font-size:3vw;
 }
 
-.cloud9 {
-    font-size:3vw;
+.header-text {
+    color:#fff;
+    font-family: "Georgia", serif;
 }
 
 /* Main Navigation Bar structure - from w3 schools template CSS stylesheet */
