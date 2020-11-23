@@ -10,8 +10,14 @@ body, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    color:#fff;
-    font-family: "Georgia", serif;
+    color:#000;
+    font-family: Georgia, serif;
+    font-size:3vw;
+}
+
+.headertext {
+    color:#fff!important;
+    font-family: Georgia, serif;
     font-size:3vw;
 }
 
@@ -167,7 +173,7 @@ h1 {
 
 .w3-display-middle {
     position: absolute;
-    top: 50%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);
