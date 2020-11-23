@@ -36,9 +36,9 @@ h1 {
     outline:0;
 }
 
-.w3-blue {
-    color:#fff!important;
-    background-color:#6da2c0!important;
+.w3-white {
+    color:#000!important;
+    background-color:#fff!important;
 }
 
 .w3-card {
@@ -61,10 +61,14 @@ h1 {
     padding:12px 24px!important;
 }
 
+.w3-hover-blue:hover {
+    color:#fff!important;
+    background-color:#85a8c7!important;
+}
+
 .w3-hover-white:hover {
     color:#000!important;
     background-color:#fff!important;
-}
 
 .w3-jumbo{
     font-size:64px!important;
