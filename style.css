@@ -10,13 +10,11 @@ body, h2, h3, h4, h5, h6 {
 }
 
 h1 {
+    color:#fff;
+    font-family: "Georgia", serif;
     font-size:3vw;
 }
 
-.header-text {
-    color:#fff;
-    font-family: "Georgia", serif;
-}
 
 /* Main Navigation Bar structure - from w3 schools template CSS stylesheet */
 .w3-top {
