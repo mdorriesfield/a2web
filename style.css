@@ -158,6 +158,11 @@ h1 {
     background-color:#000!important;
 }
 
+.w3-light-grey {
+    color:#000!important;
+    background-color:#f1f1f1!important;
+}
+
 .w3-padding-large {
     padding:12px 24px!important;
 }
@@ -184,7 +189,15 @@ h1 {
     height: auto;
 }
 
-.w3-light-grey {
-    color:#000!important;
-    background-color:#f1f1f1!important;
+.flex{
+    display:flex;
+    flex-direction:row;
+}
+
+.quarterWidth {
+    width: 25%;
+}
+
+.thirdWidth {
+    width: 33.33%;
 }
