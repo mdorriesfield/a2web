@@ -80,9 +80,7 @@ h1 {
     font-size:64px!important;
 }
 
-.w3-text-grey {
-    color:#757575!important;
-}
+
 
 /* End of Main Navigation Bar */
 
@@ -186,6 +184,10 @@ h1 {
 .w3-light-grey {
     color:#000!important;
     background-color:#f1f1f1!important;
+}
+
+.w3-text-grey {
+    color:#757575!important;
 }
 
 /* Kazuto */
