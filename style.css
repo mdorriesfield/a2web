@@ -141,6 +141,10 @@ h1 {
     padding:0.01em 16px;
 }
 
+.w3-padding-62-16 {
+    padding:62px 16px
+}
+
 .w3-center {
     text-align:center!important;
 }
@@ -156,10 +160,6 @@ h1 {
 .w3-black {
     color:#fff!important;
     background-color:#000!important;
-}
-
-.w3-padding-large {
-    padding:12px 24px!important;
 }
 
 .w3-margin-top {
