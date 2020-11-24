@@ -91,7 +91,7 @@ h1 {
     border:none;
     display:block;
     padding:8px 16px;
-    vertical-align:middle;
+   /* vertical-align:middle; */
     overflow:hidden;
     text-decoration:none;
     color:inherit;
