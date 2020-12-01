@@ -22,7 +22,6 @@ h1 {
     font-size:3vw;
 }
 
-
 /* Main Navigation Bar structure */
 .w3-top {
     position:fixed;  /* this keeps the nav bar fixed to the top when scrolling */
@@ -174,6 +173,14 @@ h1 {
     width: 50%;
 }
 
+/*   Mark edit formatting for small screens Dec 1 2020*/
+
+.w3-content-mobile {
+    margin: auto;
+    width: 100%;
+}
+/* end Mark */
+
 .w3-display-middle {
     position: absolute;
     top: 20%;
@@ -210,8 +217,23 @@ h1 {
     width: 33.33%;
 }
 
-/* Mark */
-.biotext {
-    margin-left:5px;
-    margin-right: 5px;
+/* Mark  edit formatting for People Page Dec 1 2020*/
+
+.flex-people {
+    display:flex;
+    flex-direction:column;
 }
+
+.biotext {
+    margin: 5px;
+}
+
+.bioimage {
+    float: left;
+    margin-right: 15px;
+}
+
+.bioblock {
+    margin: 20px 10px;
+}
+/* Mart end */
