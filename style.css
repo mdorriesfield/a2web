@@ -40,6 +40,10 @@ h1 {
     }
 }
 
+p {
+    text-align:justify;
+}
+
 /* Main Navigation Bar structure */
 .w3-top {
     position:fixed;  /* this keeps the nav bar fixed to the top when scrolling */
