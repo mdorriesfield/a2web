@@ -22,7 +22,7 @@ h1 {
     font-family: Georgia, serif;
 }
 
-@media (min-width:993px) {
+/* @media (min-width:993px) {
     .header-large{
         font-size:5vw;
     }
@@ -38,7 +38,7 @@ h1 {
     .header-small {
         font-size:3vw;
     }
-}
+} */
 
 p {
     text-align:justify;
