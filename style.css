@@ -86,6 +86,15 @@ h1 {
 
 /* Individual Buttons on Nav Bar */
 
+.w3-bar-item {
+    padding:8px 16px;
+    float:left;
+    border:none;
+    display:block;
+    outline:0;
+    width:auto;
+}
+
 .w3-button {
     border:none;
     display:block;
@@ -100,14 +109,6 @@ h1 {
     white-space:nowrap;
 }
 
-.w3-bar-item {
-    padding:8px 16px;
-    float:left;
-    border:none;
-    display:block;
-    outline:0;
-    width:auto;
-}
 
 /* End of Individual buttons on nav bar */
 
