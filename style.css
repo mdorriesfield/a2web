@@ -173,6 +173,15 @@ h1 {
     width: 50%;
 }
 
+/* Kate */
+
+.w3-bar-block {
+    width:100%;
+    text-align:left;
+    padding:8px 16px;
+}
+/* end Kate */
+
 /*   Mark edit formatting for small screens Dec 1 2020*/
 
 .w3-content-mobile {
