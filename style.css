@@ -8,18 +8,18 @@ body {
 }
 
 body, h2, h3, h4, h5, h6 {
-    font-family: Georgia, serif;
+    font-family: Arial, sans-serif;
 }
 
 h1 {
     color:#000;
-    font-family: Georgia, serif;
+    font-family: Arial, sans-serif;
     font-size:3vw;
 }
 
 .headertext {
     color:#fff!important;
-    font-family: Georgia, serif;
+    font-family: Arial, sans-serif;
 }
 
 /* @media (min-width:993px) {
