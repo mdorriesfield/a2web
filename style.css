@@ -50,14 +50,14 @@ p {
 
 
 /* Main Navigation Bar structure */
-.w3-top {
+.top {
     position:fixed;  /* this keeps the nav bar fixed to the top when scrolling */
     width:100%;
     z-index:1;
     top:0;
 }
 
-.w3-bar {
+.bar {
     width:100%;
     overflow:hidden;
     display:block;
@@ -67,54 +67,54 @@ p {
     outline:0;
 }
 
-.w3-white {
+.white {
     color:#000;
     background-color:#fff;
 }
 
-.w3-card {
+.card {
     box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12); /* this puts the shadow around the box */
 }
 
-.w3-left-align {
+.left-align {
     text-align:left;
 }
 
-.w3-large {
+.large {
     font-size:18px;
 }
 
-.w3-right {
+.right {
     float:right;
 }
 
-.w3-left {
+.left {
     float:left;
 }
 
-.w3-text-right {
+.text-right {
     text-align:right;
 }
 
-.w3-padding-large {
+.padding-large {
     padding:12px 24px;
 }
 
-.w3-hover-blue:hover {
+.hover-blue:hover {
     color:#fff;
     background-color:#85a8c7;
 }
 
-.w3-hover-white:hover {
+.hover-white:hover {
     color:#000;
     background-color:#fff;
 }
 
-/* .w3-jumbo {
+/* .jumbo {
     font-size:64px;
 } */
 
-.w3-button {
+.button {
     border:none;
     display:block;
     padding:8px 16px;
@@ -128,7 +128,7 @@ p {
     white-space:nowrap;
 }
 
-.w3-bar-item {
+.bar-item {
     padding:8px 16px;
     float:left;
     border:none;
@@ -151,28 +151,28 @@ p {
 
 /* Hide based on screen size (responsive design) */
 
-.w3-hide {
+.hide {
     display:none;
 }
 
-.w3-show {
+.show {
     display:block;
 }
 
 @media (min-width:993px) {
-    .w3-hide-large{
+    .hide-large{
         display:none;
     }
 }
 
 @media (max-width:992px) and (min-width:720px){
-    .w3-hide-medium{
+    .hide-medium{
         display:none;
     }
 }
 
 @media (max-width:720px) {
-    .w3-hide-small {
+    .hide-small {
         display:none;
     }
 }
@@ -181,43 +181,43 @@ p {
 
 /* Header and grids */
 
-.w3-container {
+.container {
     padding:0.01em 16px;
 }
 
-.w3-padding-62-16 {
+.padding-62-16 {
     padding:62px 16px
 }
 
-.w3-center {
+.center {
     text-align:center;
 }
 
-.w3-margin {
+.margin {
     margin:16px;
 }
 
-.w3-xlarge {
+.xlarge {
     font-size:24px;
 }
 
-.w3-black {
+.black {
     color:#fff;
     background-color:#000;
 }
 
-.w3-margin-top {
+.margin-top {
     margin-top:16px;
 }
 
-.w3-content {
+.content {
     margin: auto;
     width: 50%;
 }
 
 /* Kate */
 
-.w3-bar-block {
+.bar-block {
     width:100%;
     text-align:left;
     padding:8px 16px;
@@ -226,13 +226,13 @@ p {
 
 /*   Mark edit formatting for small screens Dec 1 2020*/
 
-.w3-content-mobile {
+.content-mobile {
     margin: auto;
     width: 100%;
 }
 /* end Mark */
 
-.w3-display-middle {
+.display-middle {
     position: absolute;
     top: 20%;
     left: 50%;
@@ -240,17 +240,17 @@ p {
     -ms-transform: translate(-50%,-50%);
 }
 
-.w3-light-grey {
+.light-grey {
     color:#000;
     background-color:#f1f1f1;
 }
 
-.w3-text-grey {
+.text-grey {
     color:#757575;
 }
 
 /* Kazuto */
-.w3-image {
+.image {
     max-width: 100%;
     height: auto;
 }
