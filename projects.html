@@ -11,6 +11,7 @@
   <!-- Owner: Kate -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
   <!-- End of Owner: Kate-->  
+  <script src='main.js'></script>
 </head>
 
 <body>
@@ -18,7 +19,7 @@
   <!-- Navbar -->
   <div class="w3-top">
     <div class="w3-bar w3-card w3-left-align w3-large w3-white">
-      <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-blue w3-large w3-white" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+      <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-blue w3-large w3-white" href="javascript:void(0);" onclick="dropMenu()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
       <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white">Home</a>
       <a href="people.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">People</a>
       <a href="projects.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Projects</a>
@@ -348,17 +349,5 @@
   <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
   </footer>
 
-  <script>
-    // Used to toggle the menu on small screens when clicking on the menu button
-  function myFunction() {
-  
-    var x = document.getElementById("SmallNavBar");
-    if (x.className.indexOf("w3-show") == -1) {
-      x.className += " w3-show";
-    } else { 
-      x.className = x.className.replace(" w3-show", "");
-    }
-  }
-  </script>
 </body>
 </html>
