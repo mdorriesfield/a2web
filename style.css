@@ -252,6 +252,11 @@ p {
 .thirdWidth {
     width: 33.33%;
 }
+/* Mark */
+.halfWidth {
+    width: 50%;
+}
+/* Mark end */
 
 /* Mark  edit formatting for People Page Dec 1 2020*/
 
@@ -277,4 +282,8 @@ p {
 /* Mark edit formatting for Projects Page Dec 5 2020 */
 .anchor {
     padding-top: 90px;
+}
+
+.minlink {
+    min-width: 143px;
 }
