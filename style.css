@@ -150,13 +150,13 @@ p {
     }
 }
 
-@media (max-width:992px) and (min-width:651px){
+@media (max-width:992px) and (min-width:720px){
     .w3-hide-medium{
         display:none!important;
     }
 }
 
-@media (max-width:650px) {
+@media (max-width:720px) {
     .w3-hide-small {
         display:none!important;
     }
