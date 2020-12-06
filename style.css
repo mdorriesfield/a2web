@@ -88,6 +88,14 @@ p {
     float:right!important;
 }
 
+.w3-left {
+    float:left!important;
+}
+
+.w3-text-right {
+    text-align:right;
+}
+
 .w3-padding-large {
     padding:12px 24px!important;
 }
@@ -282,6 +290,10 @@ p {
 /* Mark edit formatting for Projects Page Dec 5 2020 */
 .anchor {
     padding-top: 90px;
+}
+
+.bottom-anchor {
+    padding-bottom: 90px;
 }
 
 .minlink {
