@@ -18,7 +18,7 @@ h1 {
 }
 
 .headertext {
-    color:#fff!important;
+    color:#fff;
     font-family: Arial, sans-serif;
 }
 
@@ -68,8 +68,8 @@ p {
 }
 
 .w3-white {
-    color:#000!important;
-    background-color:#fff!important;
+    color:#000;
+    background-color:#fff;
 }
 
 .w3-card {
@@ -77,19 +77,19 @@ p {
 }
 
 .w3-left-align {
-    text-align:left!important;
+    text-align:left;
 }
 
 .w3-large {
-    font-size:18px!important;
+    font-size:18px;
 }
 
 .w3-right {
-    float:right!important;
+    float:right;
 }
 
 .w3-left {
-    float:left!important;
+    float:left;
 }
 
 .w3-text-right {
@@ -97,21 +97,21 @@ p {
 }
 
 .w3-padding-large {
-    padding:12px 24px!important;
+    padding:12px 24px;
 }
 
 .w3-hover-blue:hover {
-    color:#fff!important;
-    background-color:#85a8c7!important;
+    color:#fff;
+    background-color:#85a8c7;
 }
 
 .w3-hover-white:hover {
-    color:#000!important;
-    background-color:#fff!important;
+    color:#000;
+    background-color:#fff;
 }
 
 /* .w3-jumbo {
-    font-size:64px!important;
+    font-size:64px;
 } */
 
 .w3-button {
@@ -137,7 +137,14 @@ p {
     width:auto;
 }
 
-
+.burger {
+    padding:8px 16px;
+    float:right;
+    border:none;
+    display:block;
+    outline:0;
+    width:auto;
+}
 
 
 /* End of Owner: Kate */
@@ -145,28 +152,28 @@ p {
 /* Hide based on screen size (responsive design) */
 
 .w3-hide {
-    display:none!important;
+    display:none;
 }
 
 .w3-show {
-    display:block!important;
+    display:block;
 }
 
 @media (min-width:993px) {
     .w3-hide-large{
-        display:none!important;
+        display:none;
     }
 }
 
 @media (max-width:992px) and (min-width:720px){
     .w3-hide-medium{
-        display:none!important;
+        display:none;
     }
 }
 
 @media (max-width:720px) {
     .w3-hide-small {
-        display:none!important;
+        display:none;
     }
 }
 
@@ -183,24 +190,24 @@ p {
 }
 
 .w3-center {
-    text-align:center!important;
+    text-align:center;
 }
 
 .w3-margin {
-    margin:16px!important;
+    margin:16px;
 }
 
 .w3-xlarge {
-    font-size:24px!important;
+    font-size:24px;
 }
 
 .w3-black {
-    color:#fff!important;
-    background-color:#000!important;
+    color:#fff;
+    background-color:#000;
 }
 
 .w3-margin-top {
-    margin-top:16px!important;
+    margin-top:16px;
 }
 
 .w3-content {
@@ -234,12 +241,12 @@ p {
 }
 
 .w3-light-grey {
-    color:#000!important;
-    background-color:#f1f1f1!important;
+    color:#000;
+    background-color:#f1f1f1;
 }
 
 .w3-text-grey {
-    color:#757575!important;
+    color:#757575;
 }
 
 /* Kazuto */
