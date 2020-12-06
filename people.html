@@ -26,15 +26,19 @@
     </div>
 
   <!-- Navbar on small screens -->
-    <div id="navDemo" class="w3-white w3-hide w3-hide-large w3-hide-medium w3-hide-small w3-large">
-      <a href="people.html" class="w3-bar-item w3-button w3-padding-large">People</a>
-      <a href="projects.html" class="w3-bar-item w3-button w3-padding-large">Projects</a>
+    <div id="SmallNavBar" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+      <a href="people.html" class="w3-show w3-bar-item w3-button w3-padding-large">People</a>
+      <a href="projects.html" class="w3-show w3-bar-item w3-button w3-padding-large">Projects</a>
     </div>
   </div>
 <!--End of Owner: Kate -->
 
   <header class="w3-container w3-center w3-padding-62-16">
-        <h1 class="w3-margin w3-jumbo">Who We Are</h1>
+    <img class="w3-image" src="images/Cloud9Consulting4.jpg" alt="Cloud 9 Consulting" width="1500" height="523">
+    <div class="w3-display-middle">
+      <!-- Owner: Kate -->
+      <h1 class="headertext w3-margin">Who We Are</h1>
+    </div>
   </header>
 
 <!--Mark edit Dec 1 2020-->
@@ -105,9 +109,10 @@
   </footer>
 
   <script>
-  // Used to toggle the menu on small screens when clicking on the menu button
+    // Used to toggle the menu on small screens when clicking on the menu button
   function myFunction() {
-    var x = document.getElementById("navDemo");
+  
+    var x = document.getElementById("SmallNavBar");
     if (x.className.indexOf("w3-show") == -1) {
       x.className += " w3-show";
     } else { 
