@@ -195,6 +195,7 @@ p {
     }
 }
 
+/* Kazuto ownership */
 @media (min-width:993px){
     .content {
         margin: auto;
@@ -207,16 +208,14 @@ p {
 }
 
 @media (max-width:993px){
+    /*   Mark edit formatting for small screens Dec 1 2020*/
     .content-mobile {
         margin: auto;
         width: 100%;
     }
-    .bioimagesmall {
-        max-width: 100%;
-        height: auto;
-    }
+    /* end Mark */
 }
-/* End of hide based on screen size */
+/* End Kazuto ownership */
 
 /* Header and grids */
 
@@ -249,12 +248,6 @@ p {
     margin-top:16px;
 }
 
-/* .content {
-    margin: auto;
-    width: 50%;
-} */
-
-
 /* Kate */
 
 .bar-block {
@@ -263,14 +256,6 @@ p {
     padding:8px 16px;
 }
 /* end Kate */
-
-/*   Mark edit formatting for small screens Dec 1 2020*/
-
-/* .content-mobile {
-    margin: auto;
-    width: 100%;
-} */
-/* end Mark */
 
 .display-middle {
     position: absolute;
@@ -323,11 +308,6 @@ p {
 .biotext {
     margin: 5px;
 }
-
-/* .bioimage {
-    float: left;
-    margin-right: 15px;
-} */
 
 .bioblock {
     margin: 30px 10px;
