@@ -24,18 +24,18 @@ function originalImage1() {
 
 
 function newImage2() {
-    document.getElementById("image2").src="images/surveyplan_400_252.jpg";  // gets the element by the Id image2 and changes the image 
+    document.getElementById("image2").src="images/surveyplan_hover.jpg";  // gets the element by the Id image2 and changes the image 
   }
 
 function originalImage2() {
-    document.getElementById("image2").src="images/surveyplan_hover.jpg";  // gets the element by the Id image2 and changes the image back to the original
+    document.getElementById("image2").src="images/surveyplan_400_252.jpg";  // gets the element by the Id image2 and changes the image back to the original
   }
 
 
 function newImage3() {
-    document.getElementById("image3").src="images/databasedesign_400_207.jpg";  // gets the element by the Id image3 and changes the image 
+    document.getElementById("image3").src="images/databasedesign_hover.jpg";  // gets the element by the Id image3 and changes the image 
   }
 
 function originalImage3() {
-    document.getElementById("image3").src="images/databasedesign_hover.jpg";  // gets the element by the Id image3 and changes the image back to the original
+    document.getElementById("image3").src="images/databasedesign_400_207.jpg";  // gets the element by the Id image3 and changes the image back to the original
   }
