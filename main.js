@@ -12,6 +12,8 @@ function dropMenu() {
     }
   }
 
+
+/* following code inspired by: https://stackoverflow.com/questions/54853648/on-mouse-hover-change-picture-in-javascript */
 function imageChange1() {
     var image = document.getElementById("image1");
     
