@@ -13,13 +13,43 @@ function dropMenu() {
   }
 
 
-/* following code inspired by: https://stackoverflow.com/questions/54853648/on-mouse-hover-change-picture-in-javascript */
-function imageChange1() {
-    var image = document.getElementById("image1");
-    
-    image.addEventListener('mouseover', function(){
-      image.src = "images/surveyplan_400_252.jpg"
-    })
-    image.addEventListener('mouseout', function(){
-        image.src = "images/cartography_400_237.jpg"
-    })
+/* following code inspired by: https://stackoverflow.com/questions/54853648/on-mouse-hover-change-picture-in-javascript , https://stackoverflow.com/questions/10709016/change-image-onmouseover, from https://stackoverflow.com/questions/44854570/implementing-mouseover-mouseout-for-many-images-in-an-external-javascript-file  */
+(function(window, document, undefined))
+{
+  var images = document.getElementsByClassName('hoverImage');
+  for (var i = 0; i < images.length; i++) {
+    images[i].addEventListener('mouseover', imageMouseOver, false);
+    images[i].addEventListener('mouseout', imageMouseOut, false);
+  }
+})(window, window.document);
+
+
+function imageMouseOver(event)
+{
+    event = event || window.event;
+
+    var image = event.target;
+    image.src = getNewImagePath(image.src);
+    console.log(image);
+}
+
+function imageMouseOut(event)
+{
+  event = event || window.event;
+
+  var image = event.target;
+  image.src = getNewImagePath(image.src);
+  console.log(image);
+}
+
+function getNewImagePath(path)
+{
+  var newPath;
+  if (path.indexOf('_Hover') === -1) {
+    newPath = path.replace('.jpg', '_Hover.jpg');
+  } else {
+    newPath = path.replace('_Hover', '');
+  }
+  
+  return newPath;
+}
