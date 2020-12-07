@@ -1,6 +1,6 @@
 // file created by Kazuto
 
-// function created by Kate
+// Owner: Kate
 function dropMenu() {
   
     var x = document.getElementById("SmallNavBar");

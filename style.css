@@ -139,7 +139,7 @@ p {
 
 .burger {
     padding:8px 16px;
-    float:right;
+    float:left;
     border:none;
     display:block;
     outline:0;
