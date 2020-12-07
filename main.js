@@ -14,6 +14,32 @@ function dropMenu() {
     }
   }
 
+// owner: Kazuto
+function dropdown() {
+  document.getElementById("kateEmail").classList.toggle("show")
+  document.getElementById("kateEmailSmall").classList.toggle("show")
+}
+
+// function dropdownSmall () {
+//   document.getElementById("kateEmailSmall").classList.toggle("show")
+// }
+
+window.onclick = function(event) {
+  if (!(event.target.matches('.dropContact') || event.target.matches('#kateEmail'))) {
+
+    var dropdowns = document.getElementsByClassName("emailBox");
+   
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
+
 // functions for mouseover and mouseout events to change images on index page 
 
 function newImage1() {
