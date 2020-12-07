@@ -195,7 +195,7 @@ p {
     }
 }
 
-@media (min-width:720px){
+@media (min-width:993px){
     .content {
         margin: auto;
         width: 50%;
@@ -206,7 +206,7 @@ p {
     }
 }
 
-@media (max-width:720px){
+@media (max-width:993px){
     .content-mobile {
         margin: auto;
         width: 100%;
