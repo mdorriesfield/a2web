@@ -248,7 +248,7 @@ p {
     margin-top:16px;
 }
 
-/* Kate */
+/* owner: Kate */
 
 .bar-block {
     width:100%;
@@ -347,6 +347,7 @@ p {
     max-width: 400px;
     height: auto;
   }
+/* end owner: Kate */
 
 .dropContact {
     border-radius:12px;
