@@ -324,3 +324,9 @@ p {
 .minlink {
     min-width: 143px;
 }
+
+/* owner: kate */
+
+.text-centered {
+    text-align:center;
+}
