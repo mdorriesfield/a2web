@@ -168,6 +168,10 @@ p {
     display:none;
 }
 
+.emailBox {
+    display:none;
+}
+
 .show {
     display:block;
 }
@@ -190,6 +194,27 @@ p {
     }
 }
 
+@media (min-width:720px){
+    .content {
+        margin: auto;
+        width: 50%;
+    }
+    .bioimage {
+        float: left;
+        margin-right: 15px;
+    }
+}
+
+@media (max-width:720px){
+    .content-mobile {
+        margin: auto;
+        width: 100%;
+    }
+    .image {
+        max-width: 100%;
+        height: auto;
+    }
+}
 /* End of hide based on screen size */
 
 /* Header and grids */
@@ -223,10 +248,10 @@ p {
     margin-top:16px;
 }
 
-.content {
+/* .content {
     margin: auto;
     width: 50%;
-}
+} */
 
 
 /* Kate */
@@ -240,10 +265,10 @@ p {
 
 /*   Mark edit formatting for small screens Dec 1 2020*/
 
-.content-mobile {
+/* .content-mobile {
     margin: auto;
     width: 100%;
-}
+} */
 /* end Mark */
 
 .display-middle {
@@ -264,10 +289,10 @@ p {
 }
 
 /* Kazuto */
-.image {
+/* .image {
     max-width: 100%;
     height: auto;
-}
+} */
 
 .flex{
     display:flex;
@@ -298,10 +323,10 @@ p {
     margin: 5px;
 }
 
-.bioimage {
+/* .bioimage {
     float: left;
     margin-right: 15px;
-}
+} */
 
 .bioblock {
     margin: 30px 10px;
