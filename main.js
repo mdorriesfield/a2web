@@ -14,7 +14,8 @@ function dropMenu() {
 
 function newImage()
   {
-    document.getElementById("image1").src="images/cartography_400_237_hover.jpg";
+    alert();
+    //document.getElementById("image1").src="images/cartography_400_237_hover.jpg";
   }
 
 function originalImage()
