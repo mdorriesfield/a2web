@@ -18,7 +18,7 @@ h1 {
 }
 
 .headertext {
-    color:#fff!important;
+    color:#fff;
     font-family: Arial, sans-serif;
 }
 
@@ -50,14 +50,14 @@ p {
 
 
 /* Main Navigation Bar structure */
-.w3-top {
+.top {
     position:fixed;  /* this keeps the nav bar fixed to the top when scrolling */
     width:100%;
     z-index:1;
     top:0;
 }
 
-.w3-bar {
+.bar {
     width:100%;
     overflow:hidden;
     display:block;
@@ -67,54 +67,54 @@ p {
     outline:0;
 }
 
-.w3-white {
-    color:#000!important;
-    background-color:#fff!important;
+.white {
+    color:#000;
+    background-color:#fff;
 }
 
-.w3-card {
+.card {
     box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12); /* this puts the shadow around the box */
 }
 
-.w3-left-align {
-    text-align:left!important;
+.left-align {
+    text-align:left;
 }
 
-.w3-large {
-    font-size:18px!important;
+.large {
+    font-size:18px;
 }
 
-.w3-right {
-    float:right!important;
+.right {
+    float:right;
 }
 
-.w3-left {
-    float:left!important;
+.left {
+    float:left;
 }
 
-.w3-text-right {
+.text-right {
     text-align:right;
 }
 
-.w3-padding-large {
-    padding:12px 24px!important;
+.padding-large {
+    padding:12px 24px;
 }
 
-.w3-hover-blue:hover {
-    color:#fff!important;
-    background-color:#85a8c7!important;
+.hover-blue:hover {
+    color:#fff;
+    background-color:#85a8c7;
 }
 
-.w3-hover-white:hover {
-    color:#000!important;
-    background-color:#fff!important;
+.hover-white:hover {
+    color:#000;
+    background-color:#fff;
 }
 
-/* .w3-jumbo {
-    font-size:64px!important;
+/* .jumbo {
+    font-size:64px;
 } */
 
-.w3-button {
+.button {
     border:none;
     display:block;
     padding:8px 16px;
@@ -128,7 +128,7 @@ p {
     white-space:nowrap;
 }
 
-.w3-bar-item {
+.bar-item {
     padding:8px 16px;
     float:left;
     border:none;
@@ -137,36 +137,56 @@ p {
     width:auto;
 }
 
+.burger {
+    padding:8px 16px;
+    float:right;
+    border:none;
+    display:block;
+    outline:0;
+    width:auto;
+}
 
-
+.burger-item {
+    border:none;
+    display:block;
+    padding:8px 16px;
+   /* vertical-align:middle; */
+    overflow:hidden;
+    text-decoration:none;
+    color:inherit;
+    background-color:inherit;
+    text-align:left;
+    cursor:pointer;
+    white-space:nowrap;
+}
 
 /* End of Owner: Kate */
 
 /* Hide based on screen size (responsive design) */
 
-.w3-hide {
-    display:none!important;
+.hide {
+    display:none;
 }
 
-.w3-show {
-    display:block!important;
+.show {
+    display:block;
 }
 
 @media (min-width:993px) {
-    .w3-hide-large{
-        display:none!important;
+    .hide-large{
+        display:none;
     }
 }
 
 @media (max-width:992px) and (min-width:720px){
-    .w3-hide-medium{
-        display:none!important;
+    .hide-medium{
+        display:none;
     }
 }
 
 @media (max-width:720px) {
-    .w3-hide-small {
-        display:none!important;
+    .hide-small {
+        display:none;
     }
 }
 
@@ -174,43 +194,43 @@ p {
 
 /* Header and grids */
 
-.w3-container {
+.container {
     padding:0.01em 16px;
 }
 
-.w3-padding-62-16 {
+.padding-62-16 {
     padding:62px 16px
 }
 
-.w3-center {
-    text-align:center!important;
+.center {
+    text-align:center;
 }
 
-.w3-margin {
-    margin:16px!important;
+.margin {
+    margin:16px;
 }
 
-.w3-xlarge {
-    font-size:24px!important;
+.xlarge {
+    font-size:24px;
 }
 
-.w3-black {
-    color:#fff!important;
-    background-color:#000!important;
+.black {
+    color:#fff;
+    background-color:#000;
 }
 
-.w3-margin-top {
-    margin-top:16px!important;
+.margin-top {
+    margin-top:16px;
 }
 
-.w3-content {
+.content {
     margin: auto;
     width: 50%;
 }
 
 /* Kate */
 
-.w3-bar-block {
+.bar-block {
     width:100%;
     text-align:left;
     padding:8px 16px;
@@ -219,13 +239,13 @@ p {
 
 /*   Mark edit formatting for small screens Dec 1 2020*/
 
-.w3-content-mobile {
+.content-mobile {
     margin: auto;
     width: 100%;
 }
 /* end Mark */
 
-.w3-display-middle {
+.display-middle {
     position: absolute;
     top: 20%;
     left: 50%;
@@ -233,17 +253,17 @@ p {
     -ms-transform: translate(-50%,-50%);
 }
 
-.w3-light-grey {
-    color:#000!important;
-    background-color:#f1f1f1!important;
+.light-grey {
+    color:#000;
+    background-color:#f1f1f1;
 }
 
-.w3-text-grey {
-    color:#757575!important;
+.text-grey {
+    color:#757575;
 }
 
 /* Kazuto */
-.w3-image {
+.image {
     max-width: 100%;
     height: auto;
 }
