@@ -13,11 +13,11 @@ function dropMenu() {
   }
 
 function newImage()
-{
-  document.getElementById("image1").src="images/cartography_400_237_hover.jpg"
-}
+  {
+    document.getElementById("image1").src="images/cartography_400_237_hover.jpg";
+  }
 
 function originalImage()
-{
-  document.getElementById("image1").src="images/cartography_400_237.jpg"
-}
+  {
+    document.getElementById("image1").src="images/cartography_400_237.jpg";
+  }
