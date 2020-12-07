@@ -1,11 +1,13 @@
 // file created by Kazuto
 
 // Owner: Kate
+
+// function for dropdown navigation menu 
 function dropMenu() {
   
-    var x = document.getElementById("SmallNavBar");
-    if (x.className.indexOf("show") == -1) {
-      x.className += " show";
+    var x = document.getElementById("SmallNavBar");    // gets the small nav bar element by the id
+    if (x.className.indexOf("show") == -1) {           // searches for "show" in the classes of the element
+      x.className += " show";                          // if it doesn't exist, add to class name which allows the items to be shown in the "menu"
     } 
     else { 
       x.className = x.className.replace("show", "");
@@ -39,3 +41,5 @@ function newImage3() {
 function originalImage3() {
     document.getElementById("image3").src="images/databasedesign_400_207.jpg";  // gets the element by the Id image3 and changes the image back to the original
   }
+
+// End of Owner: Kate
