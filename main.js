@@ -14,7 +14,8 @@ function dropMenu() {
 
 
 /* following code inspired by: https://stackoverflow.com/questions/54853648/on-mouse-hover-change-picture-in-javascript , https://stackoverflow.com/questions/10709016/change-image-onmouseover, from https://stackoverflow.com/questions/44854570/implementing-mouseover-mouseout-for-many-images-in-an-external-javascript-file  */
-(function(window, document, undefined))
+
+function(window, document, undefined)
 {
   var images = document.getElementsByClassName('hoverImage');
   for (var i = 0; i < images.length; i++) {
@@ -45,10 +46,10 @@ function imageMouseOut(event)
 function getNewImagePath(path)
 {
   var newPath;
-  if (path.indexOf('_Hover') === -1) {
-    newPath = path.replace('.jpg', '_Hover.jpg');
+  if (path.indexOf('_hover') === -1) {
+    newPath = path.replace('.jpg', '_hover.jpg');
   } else {
-    newPath = path.replace('_Hover', '');
+    newPath = path.replace('_hover', '');
   }
   
   return newPath;
