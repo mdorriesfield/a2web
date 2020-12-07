@@ -20,10 +20,8 @@ function dropdown() {
   document.getElementById("kateEmailSmall").classList.toggle("show")
 }
 
-// function dropdownSmall () {
-//   document.getElementById("kateEmailSmall").classList.toggle("show")
-// }
-
+// owner: Kazuto
+// modified from https://www.w3schools.com/howto/howto_js_dropdown.asp
 window.onclick = function(event) {
   if (!(event.target.matches('.dropContact') || event.target.matches('#kateEmail'))) {
 

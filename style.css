@@ -347,3 +347,22 @@ p {
     max-width: 400px;
     height: auto;
   }
+
+.dropContact {
+    border-radius:12px;
+    background-color: #b3c6ff;
+    color: black;
+    padding: 16px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropContact:hover, .dropContact.focus {
+    background-color:#809fff;
+}
+
+.emailBox {
+    padding:16px;
+
+}
