@@ -309,11 +309,15 @@ p {
 
 /* Mark edit formatting for Projects Page Dec 5 2020 */
 .anchor {
-    padding-top: 90px;
+    padding-top: 50px;
 }
 
 .bottom-anchor {
-    padding-bottom: 90px;
+    padding-bottom: 110px;
+}
+
+.padding-bottom {
+    padding-bottom: 50px;
 }
 
 .minlink {
