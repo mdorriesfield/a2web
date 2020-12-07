@@ -42,6 +42,7 @@ h1 {
 
 p {
     text-align:justify;
+    padding:12px;
 }
 
 .center-align {
@@ -360,3 +361,9 @@ p {
     width:auto;
     height:auto;
 }
+
+.responsive {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
