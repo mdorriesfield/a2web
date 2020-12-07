@@ -211,7 +211,7 @@ p {
         margin: auto;
         width: 100%;
     }
-    .image {
+    .bioimagesmall {
         max-width: 100%;
         height: auto;
     }
@@ -290,10 +290,10 @@ p {
 }
 
 /* Kazuto */
-/* .image {
+.image {
     max-width: 100%;
     height: auto;
-} */
+}
 
 .flex{
     display:flex;
