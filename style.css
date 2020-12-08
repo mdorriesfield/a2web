@@ -17,7 +17,6 @@ h1 {
     font-size:3vw;
 }
 
-
 p {
     text-align:justify;
     padding:12px;
@@ -140,7 +139,9 @@ p {
 }
 /* End Owner: Kate */
 
-/* Owner: Kazuto */
+/* Owner: Kazuto 
+this class has the same attributes as .hide, but a separate one is needed in order to be able to select 
+just the elements that relate to the email dropdown */
 .emailBox {
     display:none;
 }
@@ -152,18 +153,21 @@ p {
 }
 
 @media (min-width:993px) {
+    /* any element that has this class will not be visible if the width is less than 993 pixels */
     .hide-large{
         display:none;
     }
 }
 
 @media (max-width:992px) and (min-width:720px){
+    /* any element that has this class will not be visible if the width outside of 720-992 pixels */
     .hide-medium{
         display:none;
     }
 }
 
 @media (max-width:720px) {
+    /* any element that has this class will not be visible if the width is greater than 720 pixels */
     .hide-small {
         display:none;
     }
