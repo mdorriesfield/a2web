@@ -75,9 +75,9 @@ p {
     float:left;
 }
 
-.text-right {
+/* .text-right {
     text-align:right;
-}
+} */
 
 .padding-large {
     padding:12px 24px;
@@ -215,14 +215,14 @@ p {
     font-size:24px;
 }
 
-.black {
+/* .black {
     color:#fff;
     background-color:#000;
-}
+} */
 
-.margin-top {
+/* .margin-top {
     margin-top:16px;
-}
+} */
 
 /* owner: Kate */
 
@@ -246,9 +246,9 @@ p {
     background-color:#f1f1f1;
 }
 
-.text-grey {
+/* .text-grey {
     color:#757575;
-}
+} */
 
 /* owner: Kazuto */
 .image {
@@ -261,9 +261,9 @@ p {
     flex-direction:row;
 }
 
-.quarterWidth {
+/* .quarterWidth {
     width: 25%;
-}
+} */
 
 .thirdWidth {
     width: 33.33%;
@@ -297,17 +297,17 @@ p {
     padding-top: 50px;
 }
 
-.bottom-anchor {
+/* .bottom-anchor {
     padding-bottom: 110px;
-}
+} */
 
 .padding-bottom {
     padding-bottom: 50px;
 }
 
-.minlink {
+/* .minlink {
     min-width: 143px;
-}
+} */
 
 /* End owner Mark */
 
@@ -317,10 +317,10 @@ p {
     text-align:center;
 }
 
-.hoverImage {
+/* .hoverImage {
     width:auto;
     height:auto;
-}
+} */
 
 .responsive {
     width: 100%;
