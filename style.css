@@ -17,38 +17,20 @@ h1 {
     font-size:3vw;
 }
 
-.headertext {
-    color:#fff;
-    font-family: Arial, sans-serif;
-}
-
-/* @media (min-width:993px) {
-    .header-large{
-        font-size:5vw;
-    }
-}
-
-@media (max-width:992px) and (min-width:651px){
-    .header-medium{
-        font-size:4vw;
-    }
-}
-
-@media (max-width:650px) {
-    .header-small {
-        font-size:3vw;
-    }
-} */
 
 p {
     text-align:justify;
     padding:12px;
 }
 
+.headertext {
+    color:#fff;
+    font-family: Arial, sans-serif;
+}
+
 .center-align {
     text-align:center;
 }
-
 
 /* Main Navigation Bar structure */
 .top {
@@ -110,10 +92,6 @@ p {
     color:#000;
     background-color:#fff;
 }
-
-/* .jumbo {
-    font-size:64px;
-} */
 
 .button {
     border:none;
