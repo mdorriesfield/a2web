@@ -331,7 +331,7 @@ p {
 
 .dropContact {
     border-radius:12px;
-    background-color: #b3c6ff;
+    background-color: #f1f1f1;
     color: black;
     padding: 16px;
     font-size: 14px;
@@ -340,7 +340,7 @@ p {
 }
 
 .dropContact:hover, .dropContact.focus {
-    background-color:#809fff;
+    background-color:#cfcfcf;
 }
 
 .emailBox {
