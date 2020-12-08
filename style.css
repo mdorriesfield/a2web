@@ -7,7 +7,7 @@ body {
     margin:0;
 }
 
-body, h2, h3, h4, h5, h6 {
+body, h2, h4 {
     font-family: Arial, sans-serif;
 }
 
@@ -26,10 +26,6 @@ p {
 .headertext {
     color:#fff;
     font-family: Arial, sans-serif;
-}
-
-.center-align {
-    text-align:center;
 }
 
 /* Main Navigation Bar structure */
@@ -177,7 +173,7 @@ p {
 
 /* Kazuto ownership */
 @media (min-width:993px){
-    .content {
+    .content-large {
         margin: auto;
         width: 50%;
     }
@@ -246,7 +242,7 @@ p {
     height: auto;
 }
 
-.flex{
+.flex {
     display:flex;
     flex-direction:row;
 }
@@ -258,12 +254,9 @@ p {
 .halfWidth {
     width: 50%;
 }
-
 /* end Kazuto */
 
-
 /* Owner: Mark */
-
 .flex-people {
     display:flex;
     flex-direction:column;
@@ -289,10 +282,6 @@ p {
 /* End owner Mark */
 
 /* owner: kate */
-.text-centered {
-    text-align:center;
-}
-
 .responsive {
     width: 100%;
     max-width: 400px;
