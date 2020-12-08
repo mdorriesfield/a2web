@@ -15,15 +15,24 @@ function dropMenu() {
   }
 
 // owner: Kazuto
-function dropdown() {
+function dropdownKate() {
   document.getElementById("kateEmail").classList.toggle("show")
   document.getElementById("kateEmailSmall").classList.toggle("show")
 }
 
-// owner: Kazuto
+function dropdownMark() {
+  document.getElementById("markEmail").classList.toggle("show")
+  document.getElementById("markEmailSmall").classList.toggle("show")
+}
+
+function dropdownKazuto() {
+  document.getElementById("kazutoEmail").classList.toggle("show")
+  document.getElementById("kazutoEmailSmall").classList.toggle("show")
+}
+
 // modified from https://www.w3schools.com/howto/howto_js_dropdown.asp
 window.onclick = function(event) {
-  if (!(event.target.matches('.dropContact') || event.target.matches('#kateEmail'))) {
+  if (!(event.target.matches('.dropContact') || event.target.matches('.emailBox'))) {
 
     var dropdowns = document.getElementsByClassName("emailBox");
    
@@ -36,7 +45,7 @@ window.onclick = function(event) {
     }
   }
 }
-
+// end Kazuto ownership
 
 // functions for mouseover and mouseout events to change images on index page 
 
