@@ -349,3 +349,10 @@ p {
 
 }
 /* End of Owner: Kazuto */
+
+/* Owner: Kate */
+
+.project-image {
+    display:block;
+    border:1px solid #000;
+}
