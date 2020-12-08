@@ -1,4 +1,4 @@
-/* CSS for template by Kate - SOURCE: W3Schools Stylesheet: https://www.w3schools.com/w3css/4/w3.css */
+/* CSS for template heavily modified from W3Schools Stylesheet: https://www.w3schools.com/w3css/4/w3.css */
 /* edits made by Kazuto Nov 21, 22, 23 */
 /*  edits made by Mark Nov 24, cleaning up unused classes */
 
@@ -56,7 +56,7 @@ p {
 }
 
 .card {
-    box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12); /* this puts the shadow around the box */
+    box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12); /* this puts the shadow around the nav bar box */
 }
 
 .left-align {
@@ -74,10 +74,6 @@ p {
 .left {
     float:left;
 }
-
-/* .text-right {
-    text-align:right;
-} */
 
 .padding-large {
     padding:12px 24px;
@@ -114,7 +110,9 @@ p {
     outline:0;
     width:auto;
 }
+/* End of Owner: Kate */
 
+/* Owner: Kazuto */
 .burger {
     padding:8px 16px;
     float:left;
@@ -136,17 +134,23 @@ p {
     cursor:pointer;
     white-space:nowrap;
 }
+/* End Owner: Kazuto */
 
 /* Hide based on screen size (responsive design) */
 
+/* Owner: Kate */
 .hide {
     display:none;
 }
+/* End Owner: Kate */
 
+/* Owner: Kazuto */
 .emailBox {
     display:none;
 }
+/* End Owner: Kazuto */
 
+/* Owner: Kate */
 .show {
     display:block;
 }
@@ -195,6 +199,7 @@ p {
 
 /* Header and grids */
 
+/* Owner: Kate */
 .container {
     padding:0.01em 16px;
 }
@@ -215,23 +220,11 @@ p {
     font-size:24px;
 }
 
-/* .black {
-    color:#fff;
-    background-color:#000;
-} */
-
-/* .margin-top {
-    margin-top:16px;
-} */
-
-/* owner: Kate */
-
 .bar-block {
     width:100%;
     text-align:left;
     padding:8px 16px;
 }
-/* end Kate */
 
 .display-middle {
     position: absolute;
@@ -245,10 +238,7 @@ p {
     color:#000;
     background-color:#f1f1f1;
 }
-
-/* .text-grey {
-    color:#757575;
-} */
+/* End of Owner: Kate */
 
 /* owner: Kazuto */
 .image {
@@ -261,10 +251,6 @@ p {
     flex-direction:row;
 }
 
-/* .quarterWidth {
-    width: 25%;
-} */
-
 .thirdWidth {
     width: 33.33%;
 }
@@ -276,7 +262,7 @@ p {
 /* end Kazuto */
 
 
-/* Mark  edit formatting for People Page Dec 1 2020*/
+/* Owner: Mark */
 
 .flex-people {
     display:flex;
@@ -290,37 +276,22 @@ p {
 .bioblock {
     margin: 30px 10px;
 }
-/* Mart end */
+/* End Owner: Mark */
 
 /* Mark edit formatting for Projects Page Dec 5 2020 */
 .anchor {
     padding-top: 50px;
 }
 
-/* .bottom-anchor {
-    padding-bottom: 110px;
-} */
-
 .padding-bottom {
     padding-bottom: 50px;
 }
-
-/* .minlink {
-    min-width: 143px;
-} */
-
 /* End owner Mark */
 
 /* owner: kate */
-
 .text-centered {
     text-align:center;
 }
-
-/* .hoverImage {
-    width:auto;
-    height:auto;
-} */
 
 .responsive {
     width: 100%;
@@ -346,13 +317,12 @@ p {
 
 .emailBox {
     padding:16px;
-
 }
 /* End of Owner: Kazuto */
 
 /* Owner: Kate */
-
 .project-image {
     display:block;
     border:1px solid #000;
 }
+/* End Owner: Kate */
