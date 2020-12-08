@@ -19,6 +19,7 @@
   <!-- Navbar -->
   <div class="top">
     <div class="bar card left-align large white">
+      <!-- when the "burger" button is clicked a dropdown menu will appear. this button is only visible when the screen is smaller than a certain size -->
       <a class="burger button hide-medium hide-large right padding-large hover-blue large white" href="javascript:void(0);" onclick="dropMenu()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
       <a href="index.html" class="bar-item button padding-large hover-white">Home</a>
       <a href="people.html" class="bar-item burger-item hide-small padding-large hover-white">People</a>
@@ -26,7 +27,7 @@
 
     </div>
   <!-- modified by Kazuto-->
-  <!-- Navbar on small screens -->
+  <!-- dropdown menu on small screens -->
     <div class='left'>
       <div id="SmallNavBar" class="bar-block light-grey hide hide-large hide-medium large">
         <a href="people.html" class="show burger-item padding-large">People</a>
@@ -37,6 +38,7 @@
   </div>
 <!--End of Owner: Kate -->
 
+  <!-- Title image and accompanying text -->
   <header class="container center padding-62-16">
     <img class="image" src="images/Cloud9Consulting4.jpg" alt="Cloud 9 Consulting" width="1500" height="523">
     <div class="display-middle">
@@ -49,6 +51,7 @@
   <!--Mark edit Dec 1 2020-->
   <div class='content content-mobile center'>
     <div class='flex-people'>
+      <!-- block that contains Kate's photo and bio-->
       <div class= "bioblock">
         <!-- edited by Kate -->
         <img class="image bioimage" src="images/KateHeadshot.jpg"  alt="Kate" width="200" height="300">
@@ -59,13 +62,17 @@
           dangerous lab accident to complete. She is now pursuing a career in GIS to distance herself from deadly chemicals and to instead
           spend all of her time sitting behind a computer. Just like Carbon, Kate shines under pressure. 
           When Kate grows up she hopes to become a GIS Applications Specialist.</p>
-          
+        <!-- owner: Kazuto-->
+        <!-- if the "Contact Information" button is clicked, the email address of the person is displayed below. Same code used in next two bio blocks -->
         <div class='dropBox'>
           <button id='kateButton' onclick='dropdownKate()' class='dropContact'>Contact Information</button>
           <div id='kateEmail' class='emailBox'>kalittl@flemingcollege.ca</div>
         </div>
+        <!-- end Kazuto ownership-->
       </div>
       <!-- End of Kate edits -->
+
+      <!-- block that contains Mark's photo and bio-->
       <div class= "bioblock">
         <img class="image bioimage" src="images/MarkHeadshot.jpg"  alt="Mark" width="200" height="300">
         <h4>Mark</h4>
@@ -74,11 +81,15 @@
           followed them, guiding tourists in the Neotropics. While the life of the nomad is great, living out of a backpack and not 
           showering only lasts so long, so now he's turned to GIS to analyze the type of data he loves to collect.
         </p>
+        <!-- owner: Kazuto-->
         <div class='dropBox'>
           <button id='markButton' onclick='dropdownMark()' class='dropContact'>Contact Information</button>
           <div id='markEmail' class='emailBox'>mdorries@flemingcollege.ca</div> 
         </div>
+        <!-- end Kazuto ownership-->
       </div>
+
+      <!-- block that contains Kazuto's photo and bio-->
       <div class= "bioblock">
         <!-- edited by Kazuto-->
         <img class="image bioimage" src="images/KazutoHeadshot2.jpg"  alt="Kazuto" width="200" height="300">
@@ -88,25 +99,25 @@
           Likes: rock climbing, camping, piano, gaming, beer, tea. Dislikes: raisin cookies, people pronouncing "gif" with a j sound, stepping in a small 
           puddle of water on your kitchen floor and getting one sock wet. Awful experience. Wouldn't wish it on anyone.
         </p>
+        <!-- owner: Kazuto-->
         <div class='dropBox'>
           <button id='kazutoButton' onclick='dropdownKazuto()' class='dropContact'>Contact Information</button>
           <div id='kazutoEmail' class='emailBox'>kgilling@flemingcollege.ca</div>
         </div>
       </div>
-      <!-- end of Kazuto edit-->
+      <!-- end of Kazuto ownership-->
     </div>
   </div> 
 
-
+  <!-- text at bottom stating company name -->
   <div class="container light-grey">
     <p class="margin center">Cloud 9 Consulting</p>
   </div>
 
   <!-- Footer -->
-  <footer class="container center">  
-    <div class="anchor">
-  </div>
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+  <footer class="container center">
+    <div class="anchor"></div>
+    <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
   </footer>
 
 </body>
