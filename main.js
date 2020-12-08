@@ -1,8 +1,7 @@
 // file created by Kazuto
 
 // Owner: Kate
-
-// function for dropdown navigation menu 
+// function for dropdown navigation menu modified from https://www.w3schools.com/w3css/tryw3css_templates_start_page.htm 
 function dropMenu() {
   
     var x = document.getElementById("SmallNavBar");    // gets the small nav bar element by the id
@@ -14,6 +13,7 @@ function dropMenu() {
     }
   }
 
+// End Owner: Kate 
 // owner: Kazuto
 function dropdownKate() {
   document.getElementById("kateEmail").classList.toggle("show")
@@ -47,7 +47,9 @@ window.onclick = function(event) {
 }
 // end Kazuto ownership
 
-// functions for mouseover and mouseout events to change images on index page 
+// Owner: Kate 
+// functions for mouseover and mouseout events to change images on index page modified from 
+// https://www.youtube.com/watch?v=AiiXLmqhndU - Telusko - Change image onmouseover and onmouseout events in Javascript
 
 function newImage1() {
     document.getElementById("image1").src="images/cartography_hover.jpg";  // gets the element by the Id image1 and changes the image 
