@@ -13,31 +13,33 @@ function dropMenu() {
     }
   }
 
-// End Owner: Kate 
+// End Owner: Kate
+
 // owner: Kazuto
+
+// this function is toggled by Kate's "Contact Information" button
 function dropdownKate() {
-  document.getElementById("kateEmail").classList.toggle("show")
-  document.getElementById("kateEmailSmall").classList.toggle("show")
+  document.getElementById("kateEmail").classList.toggle("show")   //when the button is pressed, if the element is visible, hide it; if it is hidden, make it visible
 }
 
+// this function is toggled by Mark's "Contact Information" button
 function dropdownMark() {
   document.getElementById("markEmail").classList.toggle("show")
-  document.getElementById("markEmailSmall").classList.toggle("show")
 }
 
+// this function is toggled by Kazuto's "Contact Information" button
 function dropdownKazuto() {
   document.getElementById("kazutoEmail").classList.toggle("show")
-  document.getElementById("kazutoEmailSmall").classList.toggle("show")
 }
 
 // modified from https://www.w3schools.com/howto/howto_js_dropdown.asp
 window.onclick = function(event) {
-  if (!(event.target.matches('.dropContact') || event.target.matches('.emailBox'))) {
+  if (!(event.target.matches('.dropContact') || event.target.matches('.emailBox'))) {   // if the user clicks anywhere other than any "Contact Information" button or any email address that is displayed:
 
-    var dropdowns = document.getElementsByClassName("emailBox");
+    var dropdowns = document.getElementsByClassName("emailBox");  // get an array-like object of all elements that have the class "emailBox" and assign it to var dropdowns
    
     var i;
-    for (i = 0; i < dropdowns.length; i++) {
+    for (i = 0; i < dropdowns.length; i++) {    // for loop iterates through the array and hides any element within it that is visible
       var openDropdown = dropdowns[i];
       if (openDropdown.classList.contains('show')) {
         openDropdown.classList.remove('show');
